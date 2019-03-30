@@ -18,12 +18,12 @@ export class AppComponent {
       ),
       new Article(
         'Angelos',
-        'http://angular.io',
+        'http://facebook.io',
         4
       ),
       new Article(
         'Giannis',
-        'http://angular.io',
+        'http://google.io',
         8
       )
     ];
