@@ -10,13 +10,7 @@ export class ArticleComponent implements OnInit {
   @HostBinding('attr.class') cssClass = 'row';
   @Input() article: Article;
 
-  constructor() {
-    this.article = new Article(
-      'Neotherapper',
-      'http://angular.io',
-      10
-    );
-  }
+  constructor() {}
 
   ngOnInit() {
   }
