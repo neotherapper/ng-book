@@ -6,7 +6,7 @@ import { Component, OnInit, HostBinding } from '@angular/core';
   styleUrls: ['./article.component.scss']
 })
 export class ArticleComponent implements OnInit {
-  @HostBinding('attrs.class') cssClass = 'row';
+  @HostBinding('attr.class') cssClass = 'row';
   votes: number;
   title: string;
   link: string;
