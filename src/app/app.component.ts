@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from './product.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng-book';
+  product: Product;
+
+  constructor(){
+    this.product = new Product(
+      'NICEHAT',
+      'A nice black hat',
+      'resources/images/product/black-hat.jpg',
+      ['Men', 'Accessories', 'HATS'],
+      29.99
+    );
+  }
 }
