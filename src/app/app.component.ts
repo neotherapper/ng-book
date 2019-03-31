@@ -9,7 +9,7 @@ import { Product } from './product.model';
 export class AppComponent {
   products: Product[];
 
-  constructor(){
+  constructor() {
     this.products = [
       new Product(
         'MYSHOES',
