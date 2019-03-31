@@ -14,21 +14,21 @@ export class AppComponent {
       new Product(
         'MYSHOES',
         'Black Running Shoes',
-        'resources/images/product/black-shoes.jpg',
+        'assets/images/products/black-shoes.jpg',
         ['Men', 'Shoes', 'Running Shoes'],
         109.99
       ),
       new Product(
         'NEATOJACKET',
         'Blue Jacket',
-        'resources/images/product/blue-jacket.jpg',
+        'assets/images/products/blue-jacket.jpg',
         ['Women', 'Apparel', 'Jackets & Vests'],
         238.99
       ),
       new Product(
         'NICEHAT',
         'A nice black hat',
-        'resources/images/product/black-hat.jpg',
+        'assets/images/products/black-hat.jpg',
         ['Men', 'Accessories', 'HATS'],
         29.99
       ),
