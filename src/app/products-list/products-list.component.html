@@ -1,0 +1,10 @@
+<div class="ui items">
+  <ul>
+    <li *ngFor="let product of productList">{{product.name}}</li>
+  </ul>
+  <!-- <app-product *ngFor="let product of productList"
+    [product]="product"
+    (click)="clicked(myproduct)"
+    [class.selected]= "isSelected(myProduct)">
+  </app-product> -->
+</div>
